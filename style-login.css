@@ -1,0 +1,50 @@
+.caixa_login {
+    background: white;
+    width: 420px;
+    height: 300px;
+    color: #e1374e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+    margin-left: 400px;
+}
+
+.caixa_login h1 {
+    font-size: 32px;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.formulario-login button {
+    background: #e1374e;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 130px;
+    align-self: center;
+    border: none;
+}
+
+.formulario-login input {
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+.formulario-login span {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
